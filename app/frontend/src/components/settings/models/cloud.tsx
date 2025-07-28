@@ -30,7 +30,9 @@ export function CloudModels({ className }: CloudModelsProps) {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch('http://localhost:8000/language-models/providers');
+      //const response = await fetch('http://localhost:8000/language-models/providers');
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/language-models/providers`);
+
       if (response.ok) {
         const data = await response.json();
         setProviders(data.providers);
