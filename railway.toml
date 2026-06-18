@@ -1,6 +1,6 @@
 [build]
-builder = "nixpacks"
+builder = "RAILPACK"
 
 [deploy]
 startCommand = "uvicorn app.backend.main:app --host 0.0.0.0 --port $PORT"
-restartPolicyType = "on-failure"
+restartPolicyType = "ON_FAILURE"
