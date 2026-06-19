@@ -34,4 +34,14 @@
     "model_name": "gemini-3.1-pro-preview",
     "provider": "Google"
   }
+  ,{
+    "display_name": "Llama 3.3 70B",
+    "model_name": "llama-3.3-70b-versatile",
+    "provider": "Groq"
+  },
+  {
+    "display_name": "Llama 4 Scout",
+    "model_name": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "provider": "Groq"
+  }
 ]
