@@ -8,7 +8,7 @@ import {
 } from '@/services/types';
 
 /* const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000'; */
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'https://ai-hedge-fund-production-bbbe.up.railway.app';
+const API_BASE_URL = 'https://ai-hedge-fund-production-bbbe.up.railway.app';
 
 export const api = {
   /**
